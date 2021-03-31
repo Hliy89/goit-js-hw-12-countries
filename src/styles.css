@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+}
+
+#my-input {
+  border: 3px solid violet;
+  border-radius: 3px;
+  height: 24px;
+  width: 320px;
+  color: #0a4b96;
+  font-size: 11px;
+  font-family: Tahoma;
+  font-weight: bold;
+}
+
+.card-list-img {
+  width: 350px;
+  height: 220px;
+  padding: 10px;
+}
+
+.card-content {
+  display: flex;
+  border: 1px solid violet;
+  border-radius: 3px;
+  max-width: fit-content;
+  margin: 0 auto;
+  box-shadow: 3px 3px 10px violet;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-box {
+  text-align: start;
+  margin-left: 10px;
+}
+
+.card-list-item {
+  text-align: start;
+  font-weight: bold;
+  font-size: 19px;
+}
