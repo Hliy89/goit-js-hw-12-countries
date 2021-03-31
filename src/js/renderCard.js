@@ -7,10 +7,8 @@ const { error } = require('@pnotify/core');
 function onRenderCountry(result) {
     if (result.length === 1) {
         refs.countryCard.innerHTML = cardCreate(result);
-        // refs.countryList.innerHTML = "";
     } else if (result.length <= 10) {
         refs.countryList.innerHTML = cardList(result);
-        // refs.countryCard.innerHTML = "";
     } else {
         error({
             text: "Ввели слишком много стран!",
